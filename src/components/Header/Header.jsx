@@ -27,8 +27,7 @@ const NavBar = () => {
                     <div className='menu-container'>
                         <li onClick={() => handleClick("Home")} ><Link className={`list-item ${menu === "Home" && "underline"}`} to={"/home"}>Home</Link></li>
                         <li onClick={() => handleClick("Blog")} ><Link className={`list-item ${menu === "Blog" && "underline"}`} to={"/blogs"}>Blog</Link></li>
-                        <li onClick={() => handleClick("Categories")} ><Link className={`list-item ${menu === "Categories" && "underline"}`} to={""}>Categories</Link></li>
-                        <li onClick={() => handleClick("Authors")} ><Link className={`list-item ${menu === "Authors" && "underline"}`} to={""}>Authors</Link></li>
+                        <li onClick={() => handleClick("Authors")} ><Link className={`list-item ${menu === "Authors" && "underline"}`} to={"/authors"}>Authors</Link></li>
                         <li onClick={() => handleClick("Contact")} ><Link className={`list-item ${menu === "Contact" && "underline"}`} to={""}>Contact</Link></li>
                     </div>
                     {/* <Menu setShowMobileMenu={setShowMobileMenu} /> */}

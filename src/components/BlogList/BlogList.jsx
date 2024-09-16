@@ -67,8 +67,6 @@ const BlogList = ({blog_data}) => {
 
             </div>
 
-
-            {/* Pagination Controls */}
             {/* Pagination Controls */}
             <div className="pagination">
                 <button

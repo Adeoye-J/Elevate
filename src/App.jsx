@@ -7,6 +7,8 @@ import Home from './pages/Home/Home';
 import ToggleTheme from './utils/ToggleTheme/ToggleTheme';
 import {BlogProvider} from './BlogContext/BlogContext';
 import Blogs from './pages/Blogs/Blogs';
+import Authors from './pages/Authors/Authors';
+import AuthorsDetails from './components/AuthorsDetails/AuthorsDetails';
 
 const App = () => {
 
@@ -19,6 +21,8 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path={"/home"} element={<Home />} />
           <Route path={"/blogs"} element={<Blogs />} />
+          <Route path={"/authors"} element={<Authors />} />
+          <Route path={"/authors-details"} element={<AuthorsDetails />} />
         </Routes>
       </BlogProvider>
     </div>

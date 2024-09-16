@@ -1,0 +1,634 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Mastering Personal Growth: Small Steps to Big Changes",
+            "author": {
+                "name": "James Clear",
+                "profile_image": "/images/authors/james_clear.jpg",
+                "bio": "James Clear is a personal development expert, known for his best-selling book 'Atomic Habits.' He specializes in habit formation, decision-making, and continuous improvement.",
+                "social_links": {
+                    "twitter": "https://twitter.com/james_clear",
+                    "website": "https://jamesclear.com"
+                }
+            },
+            "published_date": "2024-09-05",
+            "category": "Personal Development",
+            "tags": ["Mindset", "Habits", "Self Improvement"],
+            "featured_image": "/images/blogs/personal_growth.jpg",
+            "excerpt": "Learn how small, consistent actions can lead to major improvements in your life. The key to personal growth is persistence.",
+            "content": "In this blog post, we'll explore how small steps, when taken consistently, can lead to big changes in your personal and professional life...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 2,
+            "title": "Building Resilience: The Key to Overcoming Challenges",
+            "author": {
+                "name": "Brene Brown",
+                "profile_image": "/images/authors/brene_brown.png",
+                "bio": "Brene Brown is a research professor and author of 'Dare to Lead.' She focuses on vulnerability, courage, and resilience.",
+                "social_links": {
+                    "twitter": "https://twitter.com/brenebrown",
+                    "website": "https://brenebrown.com"
+                }
+            },
+            "published_date": "2024-09-10",
+            "category": "Mental Strength",
+            "tags": ["Resilience", "Overcoming Adversity", "Growth Mindset"],
+            "featured_image": "/images/blogs/resilience.jpg",
+            "excerpt": "Resilience is one of the most important personal traits to develop. It allows you to face adversity and come out stronger.",
+            "content": "In this post, we discuss the importance of resilience and how you can develop this trait over time...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 3,
+            "title": "The Power of Self Reflection in Personal Development",
+            "author": {
+                "name": "James Clear",
+                "profile_image": "/images/authors/james_clear.jpg",
+                "bio": "James Clear is a personal development expert, known for his best-selling book 'Atomic Habits.' He specializes in habit formation, decision-making, and continuous improvement.",
+                "social_links": {
+                    "twitter": "https://twitter.com/james_clear",
+                    "website": "https://jamesclear.com"
+                }
+            },
+            "published_date": "2024-08-29",
+            "category": "Self Awareness",
+            "tags": ["Self Reflection", "Journaling", "Self Growth"],
+            "featured_image": "/images/blogs/self_reflection.png",
+            "excerpt": "Self-reflection is a powerful tool that helps you understand yourself better. Learn how to use this technique to foster personal growth.",
+            "content": "By regularly reflecting on your thoughts, feelings, and actions, you can gain greater insight into yourself and your behavior...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 4,
+            "title": "The Importance of Consistency in Achieving Success",
+            "author": {
+                "name": "Tony Robbins",
+                "profile_image": "/images/authors/tony_robbins.jpg",
+                "bio": "Tony Robbins is a motivational speaker, life coach, and author of 'Awaken the Giant Within.' He focuses on personal growth and peak performance strategies.",
+                "social_links": {
+                    "twitter": "https://twitter.com/TonyRobbins",
+                    "website": "https://tonyrobbins.com"
+                }
+            },
+            "published_date": "2024-07-25",
+            "category": "Personal Development",
+            "tags": ["Consistency", "Success", "Growth"],
+            "featured_image": "/images/blogs/consistency.png",
+            "excerpt": "Consistency is key to success. Learn how to stay committed to your goals, even when progress feels slow.",
+            "content": "In this blog, we discuss how sticking to routines and maintaining focus can lead to long-term success...",
+            "is_popular": false,
+            "is_latest": false
+        },
+        {
+            "id": 5,
+            "title": "Embracing Vulnerability: A Path to Personal Growth",
+            "author": {
+                "name": "Brene Brown",
+                "profile_image": "/images/authors/brene_brown.png",
+                "bio": "Brene Brown is a research professor and author of 'Dare to Lead.' She focuses on vulnerability, courage, and resilience.",
+                "social_links": {
+                    "twitter": "https://twitter.com/brenebrown",
+                    "website": "https://brenebrown.com"
+                }
+            },
+            "published_date": "2024-06-15",
+            "category": "Emotional Intelligence",
+            "tags": ["Vulnerability", "Personal Growth", "Self Awareness"],
+            "featured_image": "/images/blogs/vulnerability.jpg",
+            "excerpt": "Vulnerability is often seen as a weakness, but it is actually a source of strength. Learn how to embrace vulnerability for personal growth.",
+            "content": "In this post, we explore the power of vulnerability and how accepting it can lead to stronger relationships and personal development...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 6,
+            "title": "Mindful Living: Techniques for a Balanced Life",
+            "author": {
+                "name": "Thich Nhat Hanh",
+                "profile_image": "/images/authors/thich_nhat_hanh.jpg",
+                "bio": "Thich Nhat Hanh was a Vietnamese Zen Master, poet, and peace activist. His teachings focus on mindfulness and compassionate living.",
+                "social_links": {
+                    "twitter": "https://twitter.com/tnh_nobel",
+                    "website": "https://plumvillage.org"
+                }
+            },
+            "published_date": "2024-08-18",
+            "category": "Mindfulness",
+            "tags": ["Mindfulness", "Balance", "Mental Clarity"],
+            "featured_image": "/images/blogs/mindful_living.jpg",
+            "excerpt": "Mindfulness is essential for leading a balanced and fulfilling life. Discover techniques to incorporate mindfulness into your daily routine.",
+            "content": "In this article, we share powerful mindfulness techniques to help you stay present and live a more balanced life...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 7,
+            "title": "How to Develop a Growth Mindset",
+            "author": {
+                "name": "Carol Dweck",
+                "profile_image": "/images/authors/carol_dweck.jpg",
+                "bio": "Carol Dweck is a psychologist and author of 'Mindset: The New Psychology of Success.' She is a leading expert in the field of motivation and mindset development.",
+                "social_links": {
+                    "twitter": "https://twitter.com/caroldweck",
+                    "website": "https://caroldweck.com"
+                }
+            },
+            "published_date": "2024-07-30",
+            "category": "Mindset",
+            "tags": ["Growth Mindset", "Learning", "Self Development"],
+            "featured_image": "/images/blogs/growth_mindset.jpg",
+            "excerpt": "A growth mindset allows you to embrace challenges and persist through difficulties. Learn how to cultivate this powerful mindset.",
+            "content": "By focusing on your ability to learn and grow, a growth mindset can help you overcome obstacles and continue to improve...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 8,
+            "title": "Breaking Bad Habits: A Step-by-Step Guide",
+            "author": {
+                "name": "James Clear",
+                "profile_image": "/images/authors/james_clear.jpg",
+                "bio": "James Clear is a personal development expert, known for his best-selling book 'Atomic Habits.' He specializes in habit formation, decision-making, and continuous improvement.",
+                "social_links": {
+                    "twitter": "https://twitter.com/james_clear",
+                    "website": "https://jamesclear.com"
+                }
+            },
+            "published_date": "2024-06-22",
+            "category": "Personal Development",
+            "tags": ["Bad Habits", "Behavior Change", "Self Improvement"],
+            "featured_image": "/images/blogs/breaking_bad_habits.jpeg",
+            "excerpt": "Bad habits can be hard to break, but with the right strategy, you can overcome them. Here's a step-by-step guide to get you started.",
+            "content": "This blog outlines a comprehensive approach to identifying and breaking bad habits, helping you replace them with healthier behaviors...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 9,
+            "title": "Embracing Change: How to Adapt and Thrive",
+            "author": {
+                "name": "Tony Robbins",
+                "profile_image": "/images/authors/tony_robbins.jpg",
+                "bio": "Tony Robbins is a motivational speaker, life coach, and author of 'Awaken the Giant Within.' He focuses on personal growth and peak performance strategies.",
+                "social_links": {
+                    "twitter": "https://twitter.com/TonyRobbins",
+                    "website": "https://tonyrobbins.com"
+                }
+            },
+            "published_date": "2024-08-02",
+            "category": "Change Management",
+            "tags": ["Adaptability", "Change", "Personal Growth"],
+            "featured_image": "/images/blogs/adapting_to_change.png",
+            "excerpt": "Change is a constant in life. Learn how to embrace it and thrive in uncertain times with practical strategies for adaptability.",
+            "content": "This post explores strategies for adapting to change and making the most out of uncertain situations...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 10,
+            "title": "Boosting Productivity Through Mindfulness",
+            "author": {
+                "name": "Thich Nhat Hanh",
+                "profile_image": "/images/authors/thich_nhat_hanh.jpg",
+                "bio": "Thich Nhat Hanh was a Vietnamese Zen Master, poet, and peace activist. His teachings focus on mindfulness and compassionate living.",
+                "social_links": {
+                    "twitter": "https://twitter.com/tnh_nobel",
+                    "website": "https://plumvillage.org"
+                }
+            },
+            "published_date": "2024-07-12",
+            "category": "Productivity",
+            "tags": ["Mindfulness", "Productivity", "Focus"],
+            "featured_image": "/images/blogs/mindful_productivity.jpg",
+            "excerpt": "By practicing mindfulness, you can increase your productivity and focus. Learn how to integrate mindfulness into your work routine.",
+            "content": "This blog explores the connection between mindfulness and productivity, offering tips to enhance focus and efficiency...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 11,
+            "title": "The Science of Motivation: How to Stay Driven",
+            "author": {
+                "name": "Daniel Pink",
+                "profile_image": "/images/authors/daniel_pink.png",
+                "bio": "Daniel Pink is a best-selling author of 'Drive: The Surprising Truth About What Motivates Us.' He specializes in the science of motivation and behavior.",
+                "social_links": {
+                    "twitter": "https://twitter.com/DanielPink",
+                    "website": "https://danpink.com"
+                }
+            },
+            "published_date": "2024-06-29",
+            "category": "Motivation",
+            "tags": ["Motivation", "Self Discipline", "Personal Growth"],
+            "featured_image": "/images/blogs/motivation.jpg",
+            "excerpt": "Discover the latest science-backed strategies to stay motivated and overcome procrastination.",
+            "content": "In this blog post, we explore the psychology behind motivation and how you can leverage it to achieve your goals...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 12,
+            "title": "The Art of Saying No: How to Protect Your Time",
+            "author": {
+                "name": "Greg McKeown",
+                "profile_image": "/images/authors/greg_mckeown.jpg",
+                "bio": "Greg McKeown is the author of 'Essentialism: The Disciplined Pursuit of Less.' He focuses on productivity, time management, and prioritization.",
+                "social_links": {
+                    "twitter": "https://twitter.com/gregorymckeown",
+                    "website": "https://gregmckeown.com"
+                }
+            },
+            "published_date": "2024-09-11",
+            "category": "Time Management",
+            "tags": ["Essentialism", "Time Management", "Productivity"],
+            "featured_image": "/images/blogs/saying_no.jpg",
+            "excerpt": "Saying no is essential for time management and productivity. Learn how to say no without guilt.",
+            "content": "In this post, Greg McKeown breaks down how learning to say no can help you protect your time and focus on what's truly important...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 13,
+            "title": "How to Build Confidence from Within",
+            "author": {
+                "name": "Mel Robbins",
+                "profile_image": "/images/authors/mel_robbins.jpg",
+                "bio": "Mel Robbins is a motivational speaker, author of 'The 5 Second Rule,' and an expert on confidence-building techniques.",
+                "social_links": {
+                    "twitter": "https://twitter.com/melrobbins",
+                    "website": "https://melrobbins.com"
+                }
+            },
+            "published_date": "2024-08-25",
+            "category": "Confidence",
+            "tags": ["Confidence", "Self-Esteem", "Personal Development"],
+            "featured_image": "/images/blogs/confidence_building.png",
+            "excerpt": "Confidence isn't something you're born with; it's built over time. Discover practical ways to boost your self-esteem.",
+            "content": "Mel Robbins shares actionable tips for building confidence, including the use of her famous '5 Second Rule' to push through self-doubt...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 14,
+            "title": "Declutter Your Mind: A Guide to Mental Clarity",
+            "author": {
+                "name": "Marie Kondo",
+                "profile_image": "/images/authors/marie_kondo.png",
+                "bio": "Marie Kondo is a tidying expert, best known for her KonMari Method of organizing and decluttering physical spaces.",
+                "social_links": {
+                    "twitter": "https://twitter.com/MarieKondo",
+                    "website": "https://konmari.com"
+                }
+            },
+            "published_date": "2024-07-08",
+            "category": "Mental Clarity",
+            "tags": ["Decluttering", "Mental Clarity", "Mindfulness"],
+            "featured_image": "/images/blogs/declutter_mind.png",
+            "excerpt": "Mental clutter can hold you back. Learn how to simplify your thoughts and clear your mental space.",
+            "content": "Marie Kondo discusses how mental clarity can be achieved through decluttering, and shares her insights on tidying your mind in the same way you tidy your home...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 15,
+            "title": "Why Emotional Intelligence is Key to Success",
+            "author": {
+                "name": "Daniel Goleman",
+                "profile_image": "/images/authors/daniel_goleman.jpg",
+                "bio": "Daniel Goleman is a psychologist and author of 'Emotional Intelligence,' which introduced the concept of EQ in the workplace.",
+                "social_links": {
+                    "twitter": "https://twitter.com/DanielGolemanEI",
+                    "website": "https://danielgoleman.info"
+                }
+            },
+            "published_date": "2024-06-10",
+            "category": "Emotional Intelligence",
+            "tags": ["Emotional Intelligence", "Self Awareness", "Interpersonal Skills"],
+            "featured_image": "/images/blogs/emotional_intelligence.png",
+            "excerpt": "Emotional intelligence (EQ) is more important than IQ when it comes to long-term success. Find out why.",
+            "content": "In this post, Daniel Goleman explains the key components of emotional intelligence and why it's critical for personal and professional success...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 16,
+            "title": "Digital Minimalism: Finding Focus in a Noisy World",
+            "author": {
+                "name": "Cal Newport",
+                "profile_image": "/images/authors/cal_newport.jpg",
+                "bio": "Cal Newport is a computer science professor and author of 'Digital Minimalism' and 'Deep Work.' He advocates for focusing on what matters in a world full of distractions.",
+                "social_links": {
+                    "twitter": "https://twitter.com/CalNewport",
+                    "website": "https://calnewport.com"
+                }
+            },
+            "published_date": "2024-05-30",
+            "category": "Digital Well-being",
+            "tags": ["Digital Minimalism", "Focus", "Productivity"],
+            "featured_image": "/images/blogs/digital_minimalism.jpg",
+            "excerpt": "Digital minimalism helps you reclaim your focus in a world of endless distractions. Discover the principles and practices behind this lifestyle.",
+            "content": "Cal Newport outlines how reducing digital noise can lead to increased focus, productivity, and a sense of fulfillment...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 17,
+            "title": "The Role of Mindfulness in Stress Management",
+            "author": {
+                "name": "Jon Kabat-Zinn",
+                "profile_image": "/images/authors/jon_kabat_zinn.jpg",
+                "bio": "Jon Kabat-Zinn is a professor of medicine and founder of Mindfulness-Based Stress Reduction (MBSR). He is a pioneer in bringing mindfulness into mainstream medicine.",
+                "social_links": {
+                    "twitter": "https://twitter.com/jonkabatzinn",
+                    "website": "https://mindfulnesscds.com"
+                }
+            },
+            "published_date": "2024-09-12",
+            "category": "Stress Management",
+            "tags": ["Mindfulness", "Stress Reduction", "Mental Health"],
+            "featured_image": "/images/blogs/mindfulness_stress_management.jpg",
+            "excerpt": "Mindfulness isn't just about meditation; it's a proven tool for managing stress and improving overall well-being.",
+            "content": "Jon Kabat-Zinn shares the science behind mindfulness and how you can use it to effectively manage stress in daily life...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 18,
+            "title": "Why Gratitude is Crucial for Mental Well-Being",
+            "author": {
+                "name": "Robert Emmons",
+                "profile_image": "/images/authors/robert_emmons.png",
+                "bio": "Robert Emmons is a professor of psychology and one of the world's leading scientific experts on gratitude.",
+                "social_links": {
+                    "twitter": "https://twitter.com/EmmonsGratitude",
+                    "website": "https://gratitudebook.com"
+                }
+            },
+            "published_date": "2024-07-21",
+            "category": "Well-Being",
+            "tags": ["Gratitude", "Positive Psychology", "Mental Health"],
+            "featured_image": "/images/blogs/gratitude.jpg",
+            "excerpt": "Practicing gratitude can significantly improve your mental health and well-being. Learn how to incorporate gratitude into your daily life.",
+            "content": "Robert Emmons explains the benefits of gratitude and how it enhances mental well-being, backed by scientific research...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 19,
+            "title": "Focus on the Process, Not the Outcome: A Success Strategy",
+            "author": {
+                "name": "James Clear",
+                "profile_image": "/images/authors/james_clear.jpg",
+                "bio": "James Clear is the author of the best-selling book 'Atomic Habits' and focuses on habits, decision-making, and continuous improvement.",
+                "social_links": {
+                    "twitter": "https://twitter.com/JamesClear",
+                    "website": "https://jamesclear.com"
+                }
+            },
+            "published_date": "2024-06-14",
+            "category": "Success Strategies",
+            "tags": ["Habits", "Success", "Goal Setting"],
+            "featured_image": "/images/blogs/process_success.jpg",
+            "excerpt": "Focusing on the process rather than the outcome is a key strategy for long-term success. Learn why.",
+            "content": "James Clear breaks down why focusing on habits and systems rather than goals can lead to better, more sustainable results...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 20,
+            "title": "Resilience: Bouncing Back from Setbacks",
+            "author": {
+                "name": "Angela Duckworth",
+                "profile_image": "/images/authors/angela_duckworth.jpg",
+                "bio": "Angela Duckworth is a psychologist and author of 'Grit: The Power of Passion and Perseverance.' She studies the psychology of resilience and grit.",
+                "social_links": {
+                    "twitter": "https://twitter.com/angeladuckw",
+                    "website": "https://angeladuckworth.com"
+                }
+            },
+            "published_date": "2024-08-01",
+            "category": "Resilience",
+            "tags": ["Resilience", "Perseverance", "Mental Strength"],
+            "featured_image": "/images/blogs/resilience.jpeg",
+            "excerpt": "Resilience is the ability to bounce back from setbacks. Learn how to develop resilience and thrive in adversity.",
+            "content": "In this post, Angela Duckworth explains the science of resilience and how you can cultivate it in your personal and professional life...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 21,
+            "title": "Mastering Time Management: Techniques for Busy Professionals",
+            "author": {
+                "name": "Laura Vanderkam",
+                "profile_image": "/images/authors/laura_vanderkam.jpg",
+                "bio": "Laura Vanderkam is an expert on time management and productivity, author of books like '168 Hours' and 'Off the Clock.'",
+                "social_links": {
+                    "twitter": "https://twitter.com/LVanderkam",
+                    "website": "https://lauravanderkam.com"
+                }
+            },
+            "published_date": "2024-09-05",
+            "category": "Productivity",
+            "tags": ["Time Management", "Productivity", "Work-Life Balance"],
+            "featured_image": "/images/blogs/time_management.jpg",
+            "excerpt": "Learn effective time management techniques that help busy professionals stay organized and productive.",
+            "content": "Laura Vanderkam provides actionable tips and strategies for mastering time management, helping you optimize your daily schedule...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 22,
+            "title": "How to Cultivate a Growth Mindset",
+            "author": {
+                "name": "Carol Dweck",
+                "profile_image": "/images/authors/carol_dweck.jpg",
+                "bio": "Carol Dweck is a psychologist known for her research on mindset. Her book 'Mindset: The New Psychology of Success' explores the concept of growth mindset.",
+                "social_links": {
+                    "twitter": "https://twitter.com/CarolDweck",
+                    "website": "https://mindsetonline.com"
+                }
+            },
+            "published_date": "2024-08-12",
+            "category": "Personal Development",
+            "tags": ["Growth Mindset", "Personal Development", "Psychology"],
+            "featured_image": "/images/blogs/growth_mindset.jpeg",
+            "excerpt": "Discover how adopting a growth mindset can transform your approach to challenges and learning.",
+            "content": "Carol Dweck explains the benefits of a growth mindset and provides practical advice on how to develop it in your personal and professional life...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 23,
+            "title": "Building Habits for Long-Term Success",
+            "author": {
+                "name": "BJ Fogg",
+                "profile_image": "/images/authors/bj_fogg.jpeg",
+                "bio": "BJ Fogg is a behavior scientist and author of 'Tiny Habits: The Small Changes That Change Everything.' He specializes in habit formation.",
+                "social_links": {
+                    "twitter": "https://twitter.com/BJFogg",
+                    "website": "https://bjfogg.com"
+                }
+            },
+            "published_date": "2024-07-19",
+            "category": "Habits",
+            "tags": ["Habit Formation", "Behavior Science", "Personal Growth"],
+            "featured_image": "/images/blogs/building_habits.jpg",
+            "excerpt": "Learn how to build effective habits that lead to long-term success and personal growth.",
+            "content": "BJ Fogg shares insights into habit formation and how small, incremental changes can lead to significant improvements in your life...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 24,
+            "title": "Effective Goal Setting for Achieving Success",
+            "author": {
+                "name": "Brian Tracy",
+                "profile_image": "/images/authors/brian_tracy.jpg",
+                "bio": "Brian Tracy is a renowned author and speaker on personal development and goal setting, with numerous best-selling books.",
+                "social_links": {
+                    "twitter": "https://twitter.com/BrianTracy",
+                    "website": "https://briantracy.com"
+                }
+            },
+            "published_date": "2024-06-22",
+            "category": "Goal Setting",
+            "tags": ["Goals", "Success", "Motivation"],
+            "featured_image": "/images/blogs/goal_setting.jpg",
+            "excerpt": "Explore strategies for setting and achieving meaningful goals that lead to long-term success.",
+            "content": "Brian Tracy outlines proven techniques for setting and achieving goals, drawing from his extensive experience in personal development...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 25,
+            "title": "The Power of Positive Thinking",
+            "author": {
+                "name": "Norman Vincent Peale",
+                "profile_image": "/images/authors/norman_vincent_peale.jpg",
+                "bio": "Norman Vincent Peale was a minister and author known for his influential book 'The Power of Positive Thinking.' His work focuses on optimism and personal success.",
+                "social_links": {
+                    "twitter": "https://twitter.com/normanvincentpeale",
+                    "website": "https://www.normanvincentpeale.com"
+                }
+            },
+            "published_date": "2024-08-23",
+            "category": "Positive Thinking",
+            "tags": ["Positive Thinking", "Optimism", "Self-Help"],
+            "featured_image": "/images/blogs/positive_thinking.jpg",
+            "excerpt": "Discover how positive thinking can change your life and help you overcome challenges.",
+            "content": "Norman Vincent Peale's classic insights into the benefits of positive thinking and how it can lead to a more successful and fulfilling life...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 26,
+            "title": "Creating a Balanced Life: Tips for Well-Being",
+            "author": {
+                "name": "Dan Buettner",
+                "profile_image": "/images/authors/dan_buettner.jpg",
+                "bio": "Dan Buettner is a National Geographic Fellow and author known for his work on 'Blue Zones,' areas where people live longer, healthier lives.",
+                "social_links": {
+                    "twitter": "https://twitter.com/danbuettner",
+                    "website": "https://danbuettner.com"
+                }
+            },
+            "published_date": "2024-07-02",
+            "category": "Well-Being",
+            "tags": ["Balance", "Health", "Longevity"],
+            "featured_image": "/images/blogs/balanced_life.jpg",
+            "excerpt": "Find out how to create a balanced and fulfilling life by integrating well-being practices into your daily routine.",
+            "content": "Dan Buettner explores the practices and lifestyle habits that contribute to a balanced and healthy life, drawing from research on longevity...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 27,
+            "title": "Overcoming Procrastination: Tips for Action",
+            "author": {
+                "name": "Piers Steel",
+                "profile_image": "/images/authors/piers_steel.jpg",
+                "bio": "Piers Steel is an expert on procrastination and author of 'The Procrastination Equation.' He studies the psychology of procrastination and how to overcome it.",
+                "social_links": {
+                    "twitter": "https://twitter.com/pierssteel",
+                    "website": "https://pierssteel.com"
+                }
+            },
+            "published_date": "2024-09-01",
+            "category": "Productivity",
+            "tags": ["Procrastination", "Productivity", "Motivation"],
+            "featured_image": "/images/blogs/procrastination.jpg",
+            "excerpt": "Procrastination can be a major obstacle to success. Learn strategies to overcome it and boost your productivity.",
+            "content": "Piers Steel provides insights into the causes of procrastination and effective strategies for overcoming it, backed by his research...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 28,
+            "title": "The Impact of Daily Routines on Success",
+            "author": {
+                "name": "James Clear",
+                "profile_image": "/images/authors/james_clear.jpg",
+                "bio": "James Clear is the author of 'Atomic Habits,' focusing on how daily habits and routines impact long-term success.",
+                "social_links": {
+                    "twitter": "https://twitter.com/JamesClear",
+                    "website": "https://jamesclear.com"
+                }
+            },
+            "published_date": "2024-06-17",
+            "category": "Habits",
+            "tags": ["Daily Routines", "Success", "Habits"],
+            "featured_image": "/images/blogs/daily_routines.jpg",
+            "excerpt": "Daily routines play a crucial role in achieving long-term success. Explore how to build effective routines.",
+            "content": "James Clear discusses the importance of daily routines and how small, consistent actions can lead to significant achievements over time...",
+            "is_popular": false,
+            "is_latest": true
+        },
+        {
+            "id": 29,
+            "title": "Developing Emotional Agility for Better Decision-Making",
+            "author": {
+                "name": "Susan David",
+                "profile_image": "/images/authors/susan_david.jpg",
+                "bio": "Susan David is a psychologist and author of 'Emotional Agility,' focusing on how emotional intelligence can improve decision-making and overall well-being.",
+                "social_links": {
+                    "twitter": "https://twitter.com/susan_david",
+                    "website": "https://susandavid.com"
+                }
+            },
+            "published_date": "2024-08-07",
+            "category": "Emotional Intelligence",
+            "tags": ["Emotional Agility", "Decision-Making", "Well-Being"],
+            "featured_image": "/images/blogs/emotional_agility.png",
+            "excerpt": "Enhance your decision-making skills by developing emotional agility. Learn strategies to manage emotions effectively.",
+            "content": "Susan David provides techniques for cultivating emotional agility, which can improve decision-making and personal resilience...",
+            "is_popular": true,
+            "is_latest": false
+        },
+        {
+            "id": 30,
+            "title": "The Role of Mindfulness in Achieving Personal Goals",
+            "author": {
+                "name": "Jon Kabat-Zinn",
+                "profile_image": "/images/authors/jon_kabat_zinn.jpg",
+                "bio": "Jon Kabat-Zinn is a pioneer in mindfulness research and the creator of the Mindfulness-Based Stress Reduction (MBSR) program.",
+                "social_links": {
+                    "twitter": "https://twitter.com/jonkabatzinn",
+                    "website": "https://mindfulnesscds.com"
+                }
+            },
+            "published_date": "2024-09-10",
+            "category": "Mindfulness",
+            "tags": ["Mindfulness", "Personal Goals", "Meditation"],
+            "featured_image": "/images/blogs/mindfulness_goals.jpg",
+            "excerpt": "Mindfulness can play a significant role in achieving personal goals. Explore how mindfulness practices can enhance your goal-setting efforts.",
+            "content": "Jon Kabat-Zinn explains the connection between mindfulness and achieving personal goals, offering practical advice on integrating mindfulness into your daily routine...",
+            "is_popular": false,
+            "is_latest": true
+        }
+    ]
+} 

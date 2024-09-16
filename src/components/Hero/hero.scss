@@ -1,0 +1,75 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/images/background/personal-development (1).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    background-color:  var(--background-blend-color);
+    min-height: 90vh;
+    width: 100%;
+    position: relative;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin-block: 2rem;
+
+        h1 {
+            color: #fff;
+            font-size: 3rem;
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+
+        p {
+            color: #fff;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .call-to-action {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 2rem;
+
+            button {
+                background-color: var(--secondary-color);
+                width: 140px;
+                padding-inline: .4rem;
+                
+                &:hover {
+                    background-color: var(--button-hover-color);
+                }
+            }
+
+            .alt-button {
+                background-color: transparent;
+                border: 1px solid var(--secondary-color);
+                
+                &:hover {
+                    background-color: var(--button-hover-color);
+                }
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            h1 {
+                font-size: 2.4rem;
+            }
+
+            .call-to-action {
+                button {
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+}

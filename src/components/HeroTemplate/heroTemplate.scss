@@ -1,0 +1,31 @@
+.hero-template-container {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    background-blend-mode: color;
+    background-color:  var(--background-blend-color);
+    
+    .hero-template-content {
+        text-align: center;
+        width: 80%;
+        margin-block: 2rem;
+
+        h1 {
+            color: #fff;
+            font-size: 3rem;
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+
+        p {
+            color: #fff;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            font-family: 'Lato', sans-serif;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.theme-toggle-btn {
+  position: absolute;
+  top: 8rem;
+  right: .5rem;
+  z-index: 500;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+
+  &:hover {
+    background: none;
+  }
+}
+
+body.dark-mode .theme-toggle-btn {
+  color: #fff;
+}

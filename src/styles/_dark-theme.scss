@@ -1,0 +1,11 @@
+.dark-mode {
+  --primary-color: #{$dark-primary-color};
+  --secondary-color: #{$dark-secondary-color};
+  --background-color: #{$dark-background-color};
+  --text-color: #{$dark-text-color};
+  --link-color: #{$dark-link-color};
+  --button-hover-color: #{$dark-button-hover-color};
+  --button-text-color: #{$dark-button-text-color};
+  --background-blend-color: #{$dark-background-blend-color};
+}
+  

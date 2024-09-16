@@ -1,0 +1,31 @@
+// _variables.scss
+
+// Light Mode
+$light-primary-color: #4CAF50;
+$light-secondary-color: #FFC107;
+$light-background-color: #F9F9F9;
+$light-text-color: #333333;
+$light-link-color: #2196F3;
+$light-button-hover-color: darken($light-secondary-color, 10%);
+$light-button-text-color: #FFFFFF;
+$light-background-blend-color: #2630f26c;
+
+// Dark Mode
+$dark-primary-color: #1E1E1E;
+$dark-secondary-color: #FF9800;
+$dark-background-color: #121212;
+$dark-text-color: #E0E0E0;
+$dark-link-color: #BB86FC;
+$dark-button-hover-color: lighten($dark-secondary-color, 10%);
+$dark-button-text-color: #000000;
+$dark-background-blend-color: #0000006e;
+
+// Typography
+$heading-font: 'Playfair Display', serif;
+$body-font: 'Roboto', sans-serif;
+$font-size-base: 1rem;
+$font-size-large: 2rem;
+$font-size-medium: 30px;
+$font-size-small: 24px;
+$button-font-size: 1rem;
+// $button-background-color: #4CAF50;

@@ -1,0 +1,54 @@
+.blog-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .blog-list-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .4rem;
+
+        button:disabled {
+            background-color: gray;
+        }
+
+        .active {
+            background-color: green;
+        }
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .blog-list-container {
+
+        .blog-list-content {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .blog-list-container {
+
+        .blog-list-content {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .pagination {
+
+            button {
+                font-size: .8rem;
+                padding: .7rem;
+            }
+        }
+    }
+
+}

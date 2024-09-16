@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroTemplate from '../../components/HeroTemplate/HeroTemplate'
 import blog_image from '/images/background/blog_hero.jpg'
-import './Blogs.scss'
+import './blogs.scss'
 import BlogFunctionality from './BlogFunctionality/BlogFunctionality'
 
 const Blogs = () => {

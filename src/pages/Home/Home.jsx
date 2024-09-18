@@ -7,10 +7,6 @@ const Home = () => {
   return (
     <div className='home-container'>
       <Hero />
-      <select style={{marginBottom: "10rem"}} className='dropdown'>
-        <option value="someOption">Some option</option>
-        <option value="otherOption">Other option</option>
-      </select>
     </div>
   )
 }

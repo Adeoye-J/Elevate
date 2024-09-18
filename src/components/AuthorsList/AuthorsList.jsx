@@ -17,7 +17,7 @@ const AuthorsList = ({authors_data}) => {
     <div className='authors-list-container'>
         <div className="authors-list-content">
             {authors_array.map((data) => (
-                <Link to={"/authors-details"}>
+                <Link to={"/authors-details"} style={{textDecoration: "none"}}>
                     <AuthorsItem name={data.author.name} profile_image={data.author.profile_image} id={data.id} />
                 </Link>
             ))}

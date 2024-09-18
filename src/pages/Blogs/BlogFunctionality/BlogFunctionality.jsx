@@ -27,7 +27,7 @@ const BlogFunctionality = () => {
         }
 
         if (selectedPopularity === 'Popularity') {
-        data = data.filter((blog) => blog.is_popular === true)
+            data = data.filter((blog) => blog.is_popular === true)
         }
 
         if (selectedLatest === 'Latest') {

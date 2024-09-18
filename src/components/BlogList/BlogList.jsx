@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import BlogItem from '../BlogItem/BlogItem'
 import "./blogList.scss"
+import { Link } from 'react-router-dom';
 
 const BlogList = ({blog_data}) => {
 
@@ -61,7 +62,9 @@ const BlogList = ({blog_data}) => {
         <div className='blog-list-container'>
             <div className="blog-list-content">
                 {currentBlogs.map((data) => (
-                    <BlogItem category={data.category} featured_image={data.featured_image} is_latest={data.is_latest} is_popular={data.is_popular} name={data.author.name} profile_image={data.author.profile_image} published_date={data.published_date} title={data.title} id={data.id} key={data.id} />
+                    // <Link to={"/blog-details"} key={data.id} style={{textDecoration: "none"}} className="blog-item-link">
+                        <BlogItem category={data.category} featured_image={data.featured_image} is_latest={data.is_latest} is_popular={data.is_popular} name={data.author.name} profile_image={data.author.profile_image} published_date={data.published_date} title={data.title} excerpt={data.excerpt} id={data.id}  />
+                    // </Link>
                 ))}
 
 

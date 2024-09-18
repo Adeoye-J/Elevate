@@ -24,7 +24,7 @@ const Footer = () => {
               <Link to={"/home"} style={{textDecoration: "none"}}><li>Home</li></Link>
               <Link to={"/blogs"} style={{textDecoration: "none"}}><li>Blogs</li></Link>
               <Link to={"/wishlist"} style={{textDecoration: "none"}}><li>Wishlist</li> </Link>
-              <Link to={"/author"} style={{textDecoration: "none"}}><li>Author</li></Link>
+              <Link to={"/authors"} style={{textDecoration: "none"}}><li>Author</li></Link>
               <Link to={"/contact"} style={{textDecoration: "none"}}><li>Contact</li></Link>
             </ul>
           </div>

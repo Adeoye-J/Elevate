@@ -1,0 +1,46 @@
+.form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    background-color: transparent;
+
+    .input-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 280px;
+        width: 100%;
+        background-color: transparent;
+        
+        label {
+            display: none;
+        }
+
+        input {
+            width: 100%;
+            border-radius: 5px;
+            outline: none;
+            border: 2px solid var(--secondary-color);
+            background-color: transparent;
+            font-size: 1.3rem;
+            padding-inline: 1rem;
+            color: var(--text-color);
+            height: 50px;
+        }
+        
+        textarea {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            border-radius: 5px;
+            outline: none;
+            border: 2px solid var(--secondary-color);
+            background-color: transparent;
+            color: var(--text-color);
+            height: 240px;
+            font-size: 1.3rem;
+            padding: 1rem;
+        }
+    }
+}

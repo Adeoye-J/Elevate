@@ -3,6 +3,7 @@ import "./header.scss"
 import { Link } from 'react-router-dom'
 import {FaHeart} from "react-icons/fa"
 import {RiMenu3Line, RiCloseFill} from "react-icons/ri"
+import { BlogContext } from '../../BlogContext/BlogContext'
 
 const NavBar = () => {
 
@@ -13,10 +14,9 @@ const NavBar = () => {
         setShowMobileMenu(false)
     }
     
-    // const {cartData, wishlist} = useContext(VBookContext)
+    const {wishlist} = useContext(BlogContext)
     const [showMobileMenu, setShowMobileMenu] = useState(false)
 
-    
     return (
         <div className='header container'>
             <div className="logo">
@@ -26,9 +26,9 @@ const NavBar = () => {
                 <ul className="list-items">
                     <div className='menu-container'>
                         <li onClick={() => handleClick("Home")} ><Link className={`list-item ${menu === "Home" && "underline"}`} to={"/home"}>Home</Link></li>
-                        <li onClick={() => handleClick("Blog")} ><Link className={`list-item ${menu === "Blog" && "underline"}`} to={"/blogs"}>Blog</Link></li>
+                        <li onClick={() => handleClick("Blog")} ><Link className={`list-item ${menu === "Blog" && "underline"}`} to={"/blogs"}>Blogs</Link></li>
                         <li onClick={() => handleClick("Authors")} ><Link className={`list-item ${menu === "Authors" && "underline"}`} to={"/authors"}>Authors</Link></li>
-                        <li onClick={() => handleClick("Contact")} ><Link className={`list-item ${menu === "Contact" && "underline"}`} to={""}>Contact</Link></li>
+                        <li onClick={() => handleClick("Contact")} ><Link className={`list-item ${menu === "Contact" && "underline"}`} to={"/contact"}>Contact</Link></li>
                     </div>
                     {/* <Menu setShowMobileMenu={setShowMobileMenu} /> */}
                     <div className="icon-con close-icon">
@@ -37,9 +37,9 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="icons">
-                <Link className='icon-con' to={""}>
+                <Link className='icon-con' to={"/wishlist"}>
                     <FaHeart className='icon' /> 
-                    {/* {wishlist.length > 0 && <div className="item-no">{wishlist.length}</div>} */}
+                    {wishlist.length > 0 && <div className="item-no">{wishlist.length}</div>}
                 </Link>
                 <Link to={""}><button>Login</button></Link>
                 <div className="icon-con menu-icon">

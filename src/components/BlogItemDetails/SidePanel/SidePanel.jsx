@@ -3,12 +3,12 @@ import "./sidePanel.scss"
 import { BlogContext } from '../../../BlogContext/BlogContext'
 import { Link } from 'react-router-dom'
 
-const SidePanel = () => {
+const SidePanel = ({latest_slice, popular_slice}) => {
 
     const {all_blogs, setSelectedBlogId, setSelectedAuthorId} = useContext(BlogContext)
 
-    const latest_blogs = all_blogs.filter((blog) => blog.is_latest === true).slice(0, 4)
-    const popular_blogs = all_blogs.filter((blog) => blog.is_popular === true).slice(0, 4)
+    const latest_blogs = all_blogs.filter((blog) => blog.is_latest === true).slice(0, latest_slice)
+    const popular_blogs = all_blogs.filter((blog) => blog.is_popular === true).slice(0, popular_slice)
 
     return (
         <div className='sidepanel-container'>

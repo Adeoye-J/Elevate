@@ -1,0 +1,32 @@
+.main-content-container {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+
+    .main-content {
+        padding: 1rem;
+        width: 100%;
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .side-container {
+        min-width: 350px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .main-content-container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 380px) {
+    .main-content-container {
+        
+        .side-container {
+            min-width: 300px;
+        }
+    }
+}
